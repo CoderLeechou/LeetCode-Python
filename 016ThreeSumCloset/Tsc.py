@@ -1,7 +1,7 @@
 #-*-coding:utf-8-*-
 class Solution(object):
     def threeSumCloset(self,nums,target):
-        nums.sort
+        nums.sort()
         ans=None
         for i in range(len(nums)):
             l,r=i+1,len(nums)-1
